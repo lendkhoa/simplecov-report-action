@@ -1,6 +1,6 @@
-name: "Simplecov Report"
-description: "Simplecov Report"
-author: aki77
+name: "Simplecov Report 2"
+description: "Simplecov Report - A fork of Simplecov Report (aki77)"
+author: lendkhoa
 branding:
   icon: check-square
   color: green

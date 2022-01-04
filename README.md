@@ -27,8 +27,8 @@ jobs:
       - name: Test
         run: bundle exec rspec
 
-      - name: Simplecov Report
-        uses: aki77/simplecov-report-action@v1
+      - name: Simplecov Report 2
+        uses: lendkhoa/simplecov-report-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 ```

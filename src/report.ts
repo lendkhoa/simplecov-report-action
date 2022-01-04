@@ -19,8 +19,10 @@ export async function report(coveredPercent: number, failedThreshold: number): P
     owner: github.context.repo.owner,
     repo: github.context.repo.repo,
     issue_number: pullRequestId,
-    body: `## Simplecov Report
+    body: `## Simplecov Report:
 ${summaryTable}
+
+Run "bundle exec rspec" locally or download this run's artifact for full coverage report
 `
   })
 }
